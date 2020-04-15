@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users
+(
+	userId INTEGER PRIMARY KEY DEFAULT NEXTVAL('seq_userId'),
+	userName VARCHAR(20) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	passwordhash VARCHAR(255) NOT NULL,
+	salt VARCHAR(256) NOT NULL,
+	emailAddress VARCHAR(255) NOT NULL,
+	lastLogin timestamp NOT NULL,
+	passwordHint VARCHAR(30) NOT NULL
+);
+
+
+CREATE SEQUENCE seq_userId;

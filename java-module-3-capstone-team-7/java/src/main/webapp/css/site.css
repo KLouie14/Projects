@@ -1,0 +1,197 @@
+.parkInfo {
+	display: flex;
+	justify-content: space-around;
+}
+#detail-forecast {
+	display: flex;
+	justify-content: flex-start;
+}
+#notToday {
+	width: 15%
+}
+#notToday img {
+	width: 100%;
+	margin-top: 35%;
+	}
+	
+#today {
+	width: 25%;
+}
+
+#highnotToday {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#lownotToday {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+#tempnotToday {
+	border: 1px solid black;
+	padding: 1%;
+	
+}
+
+
+#logo-favorite-parks {
+	width: 80%;
+}
+
+
+
+
+
+#favorites-row {
+	display:flex;
+	justify-content: flex-start;
+}
+
+
+#favorite-image-td {
+	width: 30%;
+}
+
+#favorites-park-name {
+	width: 14%;
+	padding-top: 30px;
+}
+
+#favorites-park-surveys {
+	width: 14%;	
+	padding-top: 30px;
+}
+
+
+
+
+
+
+td #logo-favorite-parks {
+	width: 25%;
+}
+
+#high-lowtoday {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#hightoday{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#temptoday{
+	margin-left: 25%;
+	border: 1px solid black;
+	padding: 1%;
+}
+
+#lowtoday {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#home-text {
+	padding-left: 1.75%;
+}
+
+#logo-header {
+	width: 33%;
+	height: auto;
+}
+#detail-park-quote {
+	font-style: italic;
+	font-size: .85em;
+	margin-bottom: 0px;
+}
+#detail-park-quotesource{
+	margin-top: 0px;
+	font-size: .75em;
+	font-style: italic;
+}
+
+#advisories p {
+	margin: 0px;
+}
+	
+#today-header {
+	text-align: center;
+	font-size: 1.25em;
+}
+#survey-submit{
+	margin-left: 50%;
+}
+
+#survey-activity-level {
+	display: flex;
+}
+
+#survey-activity-table {
+	margin-top: 1%;
+	margin-left: 5.6%;
+}
+#survey-activity-table td {
+	padding-right: .1%;
+}
+
+#parkCode {
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+#emailAddress {
+	margin-left: 5.75%;
+	margin-bottom: 1%;
+}
+
+#state {
+	margin-left: 3.42%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 3%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #829ef6;
+}
+
+h2 {
+	margin-top: -5px;
+}
+
+.detail-park-image {
+	width: 100%;
+}
+
+table .table-header {
+	font-weight: bold;
+}
+
+#login-date {
+	font-style: italic;
+	font-size: 65%;
+}
+
