@@ -1,0 +1,268 @@
+.page-wrap {
+    margin-left:auto;
+    margin-right:auto;
+    width:1100px;
+}
+
+.headerUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(68,57,57);
+}
+
+.headerLi {
+  float: left;
+}
+
+.headerLi a {
+	display: block;
+	color: rgb(232,232,232);
+	font-family: palatino;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.text {
+	font-family: palatino;
+}
+
+.welcome {
+	margin-left: 20px;
+	margin-top: -20px;
+	color: black;
+	font-weight: bold;
+	text-decoration-color: #aeaeae;
+
+	
+}
+
+.forSubmitButton {
+	border-radius: 5px;
+}
+
+.info-text {
+	background-color: rgb(68,57,57);
+	color: rgb(232,232,232);
+	position: fixed;
+	margin-left: 700px;
+	width: 350px;
+	height:320px;
+	padding: 20px;
+	font-family: palatino;
+	border-style: solid;
+	border-color: rgb(222,222,222);
+	border-radius: 12px;
+
+}
+
+.aboutSite {
+	
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration-line: underline;
+	text-decoration-size: thin;
+	
+}
+
+.beerLoverAbout {
+	
+	font-size: 15px;
+	font-weight: bold;
+	opacity: 0.9;
+	
+}
+
+.brewerAbout {
+	
+	font-size: 15px;
+	font-weight: bold;
+	opacity: 0.9;
+	
+}
+
+.loveABeer {
+
+	
+	font-size: 15px;
+	font-weight: bold;
+	opacity: 0.9;
+}
+
+.leaveAReview {
+	margin-left: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	-webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#currentUser {
+	margin-left: 20px;
+	margin-top: -22px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: rgb(232,232,232);
+	
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #a07c0e;
+}
+
+.logOutButtonLi {
+	float: right;
+	
+}
+
+.logOutButtonLi a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../img/fizz.jpg);
+ /*  background-image: url("https://download.hipwallpaper.com/desktop/1600/900/83/4/oFDQzN.jpg"); */
+  background-attachment:fixed;
+}
+.beerName {
+	width: auto;
+    float: right;
+    margin-right: 300px;
+    margin-top: -500px;
+    font-size: 20px;
+	
+}
+
+
+td {
+	padding: 20px;
+	vertical-align: top;
+	
+}
+
+a{
+	text-decoration: none;
+}
+#breweryName {
+	color:black;
+	font-size:large;
+	left-margin: 15px;
+	
+}
+
+.breweryImage img {
+	width: 225px;
+	height: 225px;
+	box-shadow: 5px 5px 20px grey;
+	margin-bottom: 40px;
+}
+.breweryDetailPageImage img {
+	width: 250px;
+	height: 250px;
+	box-shadow: 5px 5px 20px grey;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+#web-address {
+	margin-left: 15px;
+}
+#contact {
+	margin-left: 15px;
+}
+#hours {
+	margin-left: 15px;
+}
+#address{
+	margin-left: 15px;
+}
+#history {
+	margin-left: 15px;
+}
+#detail-brewery-name {
+	margin-left: 15px;
+}
+
+
+.input-name-beer {
+	margin-left: 88px;
+	margin-bottom: 10px;
+}
+
+.input-description {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.input-abv {
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.input-style {
+	margin-left: 94px;
+}
+
+.wholeBody {
+	margin-left: 30%;
+	margin-top: 10%;
+}
+.addBrewery {
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.addBeerOption {
+	margin-top: 60px;
+}
+
+.deleteBeerOption {
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.beerDetails {
+margin-top: 13%;
+}
+
+li.nameOfBeer {
+display: flex;
+justify-content: center;
+font-size:xx-large;
+}
+.input-name {
+	margin-left: 88px;
+	margin-bottom: 10px;
+}
+.input-address {
+	margin-left:72px;
+	margin-bottom:10px;
+}
+.input-history {
+	margin-left: 22px;
+	margin-bottom: 10px;
+}
+.input-webAddress {
+	margin-left:41px;
+	margin-bottom: 10px;
+}
+.input-phoneNumber {
+	margin-left:29px;
+	margin-bottom:10px;
+}
+
+
+
+
+
